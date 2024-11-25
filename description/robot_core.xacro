@@ -81,7 +81,7 @@
     <joint name="castor_wheel_joint" type="fixed">
         <parent link="chassis"/>
         <child link="castor_wheel"/>
-        <origin xyz="0.24 0 0"u rpy="0 0 0"/>
+        <origin xyz="0.24 0 0" rpy="0 0 0"/>
         <axis xyz ="0 0 1"/>
     </joint>
 
