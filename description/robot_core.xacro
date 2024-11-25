@@ -31,11 +31,15 @@
         <visual>
             <origin xyz="0.15 0 0.075"/>
             <geometry>
-                <box size="0.3 0.3 0.15"/>
+                <cylinder size="0.3 0 1"/>
             </geometry>
             <material name="white"/>
         </visual>
     </link>
+
+
+
+
 
 
 </robot>
