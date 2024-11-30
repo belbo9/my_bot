@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
+
     <material name ="white">
         <color rgba="1 1 1 1" />
     </material>
@@ -42,7 +43,6 @@
             </geometry>
         </collision>
     </link>
-
 
     <!--LEFT WHEEL LINK-->
 
@@ -100,7 +100,7 @@
         <axis xyz ="0 0 1"/>
     </joint>
 
-
+</robot>
 
 
 
