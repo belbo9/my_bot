@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-    <xacro:include filename="file:///home/bel/dev_ws/src/my_bot/description/inertial_macros.xacro" />
+    <xacro:include filename="$(find my_bot)/description/inertial_macros.xacro" />
 
     <material name="white">
         <color rgba="1 1 1 1" />
