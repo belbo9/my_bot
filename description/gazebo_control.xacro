@@ -2,6 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <gazebo>
+        <!--for this, i don't need to have another pulgin tag since the tag below already has plugin--> 
         <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
 
         <!--Wheel Info-->
